@@ -10,4 +10,10 @@ origin	https://github.com/deuxmilledix/git_test.git (push)
 - 3: then if anyone modified this file remotely from others terminals, and we need to fetch the modification before adding ours
 >git pull origin master
 
+- 4: to receive the modification from remote terminal without affecting our working file, then you need fetch
+>git fetch origin
+
+- 5: after the fetch command, if you want to affect the modification to your working file, then you need merge
+>git merge origin/master
+
 

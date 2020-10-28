@@ -1,0 +1,13 @@
+- 1: to check the remote terminals 
+(base) zhuo@zhuo-Inspiron-5579:~/Documents/git_test_3$ git remote -v
+origin	https://github.com/deuxmilledix/git_test.git (fetch)
+origin	https://github.com/deuxmilledix/git_test.git (push)
+
+
+- 2: when I did some modification or addings, if I need to push this modification on github
+>git push -u origin master
+
+- 3: then if anyone modified this file remotely from others terminals, and we need to fetch the modification before adding ours
+>git pull origin master
+
+
